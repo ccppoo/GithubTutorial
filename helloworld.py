@@ -5,7 +5,10 @@ def hello(name : str) -> None:
 
 def bye(name : str) -> None:
   print(f'bye {name}!') 
-  
+
+def hi():
+  print('hi')
+
 def main(): 
   print(f'This is function main')
   NAME = 'Your name'
